@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #161513;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.site-section {
+    margin: 98px auto;
+
+}
+
+.site-column {
+    max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 82px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #222222;
+}
+
+.logo {
+   max-width: 80px;
+    height: auto;
+}
+
+
+
+header a {
+    font-size: 0.9375rem;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+}
+
+header ul {
+    display: flex;
+    gap: 70px;
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 3.43rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #f206da;
+   
+   }
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #919191;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+section {
+    display: block;
+    border-bottom-width: 3px;
+    padding: 2rem 1.5rem 4rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section img {
+
+    Width: 251px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+}
+
+.boton-transp {
+    display: inline-block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+    
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 3.1rem;
+    padding: 1rem 1.75rem;
+    margin-top: 1.75rem;
+
+}
+
+.boton-blanco {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    border:#ffffff solid ;
+    background-color: #ffffff;
+    border-radius: 3.1rem;
+    padding: 1rem 1.75rem;
+    margin-top: 1.75rem;
+
+}
+
+.botones {
+
+    display: flex;
+    gap: 30px;
+     justify-content:center;
+}
+
+.experience{
+font-family: "Poppins", sans-serif;
+font-size: 1.3rem;
+font-weight: 800;
+text-align: center;
+letter-spacing: 0.3em; 
+color: #C5C5C5;
+margin-bottom: 2rem;
+}
+
+.iconos{
+    display: flex ;
+    gap: 50px;
+    justify-content: center;
+    size: 2.875rem;
+    margin-top: 40px;
+}
+
+a img{
+    Width: 42px;
+    height: auto;
+
+}
+
